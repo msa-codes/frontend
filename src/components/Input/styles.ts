@@ -21,6 +21,18 @@ export const Container = styled.div`
     border: 0;
     color: #f4ede8;
 
+    /* alterar o CSS dos campos que são preenchidos automaticamente */
+    /* Cor de fundo do autocomplete */
+    &:-webkit-autofill {
+      box-shadow: 0 0 0 30px #232129 inset;
+      -webkit-box-shadow: 0 0 0 30px #232129 inset;
+    }
+
+    /* Cor do texto do autocomplete */
+    &:-webkit-autofill {
+      -webkit-text-fill-color: #f4ede8 !important;
+    }
+
     &::placeholder {
       color: #666360;
     }

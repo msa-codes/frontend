@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
 
-import backgroundImage from '../../assets/sign-in-background.png';
+import signInBackgroundImage from '../../assets/sign-in-background.png';
 
 export const Container = styled.div`
   height: 100vh;
@@ -63,6 +63,6 @@ export const Content = styled.div`
 
 export const Background = styled.div`
   flex: 1;
-  background: url(${backgroundImage}) no-repeat center;
+  background: url(${signInBackgroundImage}) no-repeat center;
   background-size: cover;
 `;

@@ -40,7 +40,6 @@
       ],
       "react-hooks/rules-of-hooks": "error",
       "react/jsx-one-expression-per-line": "off",
-      "operator-linebreak":"off",
       "react/jsx-props-no-spreading": "off",
       "react/prop-types": "off",
       "object-curly-newline":"off",

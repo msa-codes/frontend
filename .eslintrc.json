@@ -41,6 +41,7 @@
       "react-hooks/rules-of-hooks": "error",
       "react/jsx-one-expression-per-line": "off",
       "react/jsx-props-no-spreading": "off",
+      "no-unused-expressions":"off",
       "react/prop-types": "off",
       "object-curly-newline":"off",
       "arrow-parens": "off",

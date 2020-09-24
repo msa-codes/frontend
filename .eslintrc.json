@@ -38,6 +38,9 @@
           "tsx": "never"
         }
       ],
+      "implicit-arrow-linebreak":"off",
+      "operator-linebreak":"off",
+      "@typescript-eslint/ban-types": "off",
       "react-hooks/rules-of-hooks": "error",
       "react/jsx-one-expression-per-line": "off",
       "react/jsx-props-no-spreading": "off",

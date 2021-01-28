@@ -39,6 +39,7 @@
         }
       ],
       "implicit-arrow-linebreak":"off",
+      "camelcase":"off",
       "arrow-body-style":"off",
       "operator-linebreak":"off",
       "@typescript-eslint/ban-types": "off",

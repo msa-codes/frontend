@@ -9,6 +9,8 @@ import {
   Content,
   Schedule,
   NextAppointment,
+  Section,
+  Appointment,
   Calendar,
 } from './styles';
 
@@ -17,8 +19,6 @@ import { useAuth } from '../../hooks/auth';
 
 const Dashboard: React.FC = () => {
   const { signOut, user } = useAuth();
-
-  console.log(user);
 
   return (
     <Container>
@@ -65,6 +65,57 @@ const Dashboard: React.FC = () => {
               </span>
             </div>
           </NextAppointment>
+
+          <Section>
+            <strong>Manhã</strong>
+            <Appointment>
+              <span>
+                <FiClock />
+                08:00
+              </span>
+              <div>
+                <img
+                  src="https://avatars.githubusercontent.com/u/52921404?s=460&v=4"
+                  alt="Marcelo Ataíde"
+                />
+
+                <strong>Marcelo Ataíde</strong>
+              </div>
+            </Appointment>
+
+            <Appointment>
+              <span>
+                <FiClock />
+                08:00
+              </span>
+              <div>
+                <img
+                  src="https://avatars.githubusercontent.com/u/52921404?s=460&v=4"
+                  alt="Marcelo Ataíde"
+                />
+
+                <strong>Marcelo Ataíde</strong>
+              </div>
+            </Appointment>
+          </Section>
+
+          <Section>
+            <strong>Tarde</strong>
+            <Appointment>
+              <span>
+                <FiClock />
+                08:00
+              </span>
+              <div>
+                <img
+                  src="https://avatars.githubusercontent.com/u/52921404?s=460&v=4"
+                  alt="Marcelo Ataíde"
+                />
+
+                <strong>Marcelo Ataíde</strong>
+              </div>
+            </Appointment>
+          </Section>
         </Schedule>
 
         <Calendar />
